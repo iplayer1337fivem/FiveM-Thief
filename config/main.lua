@@ -1,6 +1,6 @@
 Config = {
     Keybinds = { -- You can select any keybinds from here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
-        ["Thief"] = "H",
+        ["Thief"] = "h",
         ["HandsUp"] = "X"
     },
 
@@ -11,8 +11,8 @@ Config = {
 
     Settings = {
         ["Cooldown"] = {
-            ["Enabled"] = false,
-            ["Duration"] = 1, -- Minute(s)
+            ["Enabled"] = true,
+            ["Duration"] = 10, -- Minute(s)
         }, 
         ["MaxDistance"] = 2.0,
     },
@@ -40,7 +40,7 @@ Config = {
         ["InputItemTitle"] = "Item",
         ["InputAmountTitle"] = "Amount",
         ["InputAmountDescription"] = "Choose amount to steal.",
-        ["Currency"] = "$",
+        ["Currency"] = "DKK",
         ["IconsPath"] = "nui://ox_inventory/web/images"
     },
     
