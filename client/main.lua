@@ -306,5 +306,5 @@ RegisterCommand('$thief', function()
     end
 end, false)
 
-RegisterKeyMapping('$handsup', 'Hands Up', 'keyboard', Config.Keybinds["HandsUp"])
-RegisterKeyMapping('$thief', 'Thief', 'keyboard', Config.Keybinds["Thief"])
+RegisterKeyMapping('$handsup', 'Hænderne op', 'keyboard', Config.Keybinds["HandsUp"])
+RegisterKeyMapping('$thief', 'tyveri', 'keyboard', Config.Keybinds["Thief"])
